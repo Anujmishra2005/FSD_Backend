@@ -1,0 +1,34 @@
+My Project -- Server
+           -- Client
+
+Framework Provide Structure to the Project
+
+npm create vite@latest . (Working On Client)
+
+npm init - ask project infor and make a new file called package.json
+
+npm init -y - uses default Data
+
+Dependencies
+
+Dev Dependencies
+
+npm i express ( To Install the Dependency of the Express)
+
+Nodemon is a Development Dependencies
+
+npm i --save-div Nodemon
+
+npm i -y nodemon 
+
+package-lock.json ()
+
+Apps.json
+
+Controller 
+
+Model
+
+Config
+
+Routes
