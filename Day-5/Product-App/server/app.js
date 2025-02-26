@@ -43,11 +43,6 @@ app.post("/products",(req,res)=>{
 })
 
 
-
-
-
-
-
 app.listen(3000,(err)=>{
     try{
         if(err) throw err;
