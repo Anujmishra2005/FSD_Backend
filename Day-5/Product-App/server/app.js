@@ -42,7 +42,6 @@ app.post("/products",(req,res)=>{
     res.json({status: "success" , message: "product created successfully",newProduct});
 })
 
-// app.delete("/deleteproduct/:id",(req,res)=>{
 
 
 
