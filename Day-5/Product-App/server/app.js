@@ -77,11 +77,3 @@ app.listen(3000,(err)=>{
         console.log("Server Error:",err.message);
     }
 })
-
-// promise
-// async-await
-// callback
-
-
-//json.stringify
-//json.parse
