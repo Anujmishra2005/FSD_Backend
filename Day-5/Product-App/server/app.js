@@ -59,11 +59,7 @@ app.post("/products",(req,res)=>{
 
 // })
 
-// app.get("/product/:id",(req,res)=>{
-//    const pid = req.params.id;
-//    const index = products.findIndex(ind=>ind.id==pid);
-//    if()
-// })
+
 
 
 app.listen(3000,(err)=>{
