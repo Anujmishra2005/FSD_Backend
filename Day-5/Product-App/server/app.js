@@ -43,9 +43,7 @@ app.post("/products",(req,res)=>{
 })
 
 // app.delete("/deleteproduct/:id",(req,res)=>{
-//     const uid = req.params.id;
-//     if(uid!=null){
-//         const index = users.findIndex(ind=>ind.id == uid)
+
 
 
 
