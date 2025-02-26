@@ -46,18 +46,7 @@ app.post("/products",(req,res)=>{
 //     const uid = req.params.id;
 //     if(uid!=null){
 //         const index = users.findIndex(ind=>ind.id == uid)
-//         if(index!=-1){
-//             users.splice(index,1);
-//             res.status(200);
-//             res.json({status: "success" , message: "user deleted successfully"})
-//         } 
-//         else{
-//             res.status(400);
-//             res.json({status: "fail" , message: "Wrong user id"})
-//         }
-//     }
 
-// })
 
 
 
