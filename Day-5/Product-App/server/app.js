@@ -27,7 +27,7 @@ app.get("/products",(req,res)=>{
 
 
 app.post("/products",(req,res)=>{
-    const {pid,pname,price,quantity} = req.body;  // Object Destructuring - 
+    const {pid,pname,price,quantity} = req.body;  // Object Destructuring
     // id = req.body.id
     // name = req.body.name
     // email = req.body.email
