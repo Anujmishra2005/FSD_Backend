@@ -27,7 +27,7 @@ app.get("/products",(req,res)=>{
 
 
 app.post("/products",(req,res)=>{
-    const {pid,pname,price,quantity} = req.body;  // Object Destructuring - Reduces the Line of Code 4 Line Code in One Line
+    const {pid,pname,price,quantity} = req.body;  // Object Destructuring - 
     // id = req.body.id
     // name = req.body.name
     // email = req.body.email
