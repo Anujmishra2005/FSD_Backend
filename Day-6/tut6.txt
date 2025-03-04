@@ -1,0 +1,37 @@
+Client --- Middelware --- Server
+
+
+
+Types of Middelware
+
+1) Application Levwl Middleware  ---- app.use(m1)
+
+const m1 = (req , res , next) => {
+
+}
+
+2) Router Level Middleware
+
+
+3) Built In Middleware
+
+Express.json()
+static  -- Normal HTML files are avialble in which folder
+
+4) Third Party Middleware
+
+CORS error = When we get an error in connecting Frontend and Backend
+
+CORS is used to use the functioning of other application by the use of API 
+
+Morgan/Wingston = Morgan is  used to store the logs in our Day to Day Working
+
+5) Error Handling Middleware 
+
+Robust = it should always correct and does not give any error
+
+const m2 = (error , req , res , next) => {
+    res.status(500).send("Internal Server Error)            // 500 Error is used when we don't know which error will be came
+}
+
+It should be applied at last after all the Routing 
