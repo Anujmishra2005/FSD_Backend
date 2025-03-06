@@ -25,7 +25,7 @@ app.get("/users", (req, res) => {
     res.status(200).json(users);
 });
 
-app.get("/user/:id", (req, res) => {
+app.get("/user/:id", (req, res) => {                                    // get api
     const uid = req.params.id;
     const index = users.findIndex(ind => ind.id == uid);
     if (index === -1) {
