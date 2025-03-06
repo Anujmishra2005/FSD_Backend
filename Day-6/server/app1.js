@@ -46,7 +46,7 @@ app.post("/createuser", async (req, res) => {                                   
     res.status(200).json({ status: "success", message: "User Created Successfully", data: newUser });
 });
 
-app.patch("/edituser/:id", async (req, res) => {
+app.patch("/edituser/:id", async (req, res) => {                                    // Edit USer and Patch api
     const uid = req.params.id;
     const { name, email } = req.body;
     const index = users.findIndex(ind => ind.id == uid);
