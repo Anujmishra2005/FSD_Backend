@@ -61,7 +61,7 @@ app.patch("/edituser/:id", async (req, res) => {                                
     res.status(200).json({ status: "success", message: "User Data Edited Successfully", data: users[index] });
 });
 
-app.delete("/deleteuser/:id", async (req, res) => {
+app.delete("/deleteuser/:id", async (req, res) => {                                  // Delete User api
     const uid = req.params.id;
     const index = users.findIndex(ind => ind.id == uid);
     if (index === -1) {
