@@ -34,7 +34,7 @@ app.get("/user/:id", (req, res) => {                                    // get a
     res.status(200).json({ status: "success", message: "User found", data: users[index] });
 });
 
-app.post("/createuser", async (req, res) => {
+app.post("/createuser", async (req, res) => {                                                              // post api
     const { name, email } = req.body;
     if (!name || !email) {
         return res.status(400).json({ status: "fail", message: "All fields are required" });
