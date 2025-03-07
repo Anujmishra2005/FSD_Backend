@@ -1,7 +1,5 @@
 Client --- Middelware --- Server
 
-
-
 Types of Middelware
 
 1) Application Levwl Middleware  ---- app.use(m1)
