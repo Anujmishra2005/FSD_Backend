@@ -16,7 +16,6 @@ static  -- Normal HTML files are avialble in which folder
 4) Third Party Middleware
 CORS error = When we get an error in connecting Frontend and Backend
 CORS is used to use the functioning of other application by the use of API 
-
 Morgan/Wingston = Morgan is  used to store the logs in our Day to Day Working
 
 5) Error Handling Middleware 
