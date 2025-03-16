@@ -25,5 +25,4 @@ Robust = it should always correct and does not give any error
 const m2 = (error , req , res , next) => {
     res.status(500).send("Internal Server Error)    // 500 Error is used when we don't know which error will be came
 }
-
 It should be applied at last after all the Routing 
