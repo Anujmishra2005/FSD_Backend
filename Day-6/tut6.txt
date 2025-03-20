@@ -9,7 +9,6 @@ const m1 = (req , res , next) => {
 2) Router Level Middleware
 
 3) Built In Middleware
-
 Express.json()
 static  -- Normal HTML files are avialble in which folder
 
