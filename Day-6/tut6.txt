@@ -3,7 +3,6 @@ Client --- Middelware --- Server
 Types of Middelware
 
 1) Application Levwl Middleware  ---- app.use(m1)
-
 const m1 = (req , res , next) => {
 }
 2) Router Level Middleware
