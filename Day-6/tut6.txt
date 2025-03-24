@@ -8,7 +8,6 @@ const m1 = (req , res , next) => {}
 3) Built In Middleware
 Express.json()
 static  -- Normal HTML files are avialble in which folder
-
 4) Third Party Middleware
 CORS error = When we get an error in connecting Frontend and Backend
 CORS is used to use the functioning of other application by the use of API 
